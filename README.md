@@ -1,13 +1,13 @@
 ArqueSimilarity
 Aplicação desktop em Python para análise de similaridade entre imagens utilizando técnicas clássicas de visão computacional.
 
-📌 Sobre o Projeto
+--Sobre o Projeto
 
 O ArqueSimilarity – OpenCV Edition é uma aplicação desktop desenvolvida em Python que permite comparar duas imagens utilizando:
 
-🔬 SSIM (Structural Similarity Index)
+- SSIM (Structural Similarity Index)
 
-🎯 ORB (Oriented FAST and Rotated BRIEF – OpenCV)
+- ORB (Oriented FAST and Rotated BRIEF – OpenCV)
 
 O sistema exibe:
 
@@ -19,7 +19,7 @@ Gráfico comparativo
 
 Histórico persistente das análasises
 
-🖼️ Funcionalidades
+--Funcionalidades
 
 ✔ Interface gráfica moderna com ttkbootstrap
 ✔ Visualização com zoom e arraste
@@ -28,7 +28,7 @@ Histórico persistente das análasises
 ✔ Histórico salvo em JSON
 ✔ Exportação manual do histórico
 
-🧠 Algoritmos Utilizados
+--Algoritmos Utilizados
 🔹 SSIM
 
 Baseado na comparação estrutural da imagem
@@ -73,37 +73,7 @@ Gráfico automático
 Tema utilizado:
 
 darkly (ttkbootstrap)
-
-📦 Instalação
-1️⃣ Clone o repositório
-git clone https://github.com/seu-usuario/ArqueSimilarity.git
-cd ArqueSimilarity
-
-2️⃣ Crie um ambiente virtual (opcional, recomendado)
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-
-3️⃣ Instale as dependências
-pip install pillow opencv-python numpy scikit-image matplotlib ttkbootstrap
-
-▶️ Execução
-python main.py
-
-📁 Estrutura do Projeto
-ArqueSimilarity/
-│
-├── main.py
-├── historico.json
-└── README.md
-
-📊 Exemplo de Saída
-SSIM: 87.45%
-ORB: 72.13%
-
-A similaridade geral é de 79.79%
-
-
+--Como exportar a comparação das imagens
 Histórico salvo automaticamente em:
 
 historico.json
