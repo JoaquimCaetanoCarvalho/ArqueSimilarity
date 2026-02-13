@@ -1,7 +1,5 @@
- - ArqueSimilarity – 
-
+ArqueSimilarity
 Aplicação desktop em Python para análise de similaridade entre imagens utilizando técnicas clássicas de visão computacional.
-
 
 📌 Sobre o Projeto
 
